@@ -21,7 +21,6 @@ const execute = () => __awaiter(this, void 0, void 0, function* () {
         root = resp.nextRoot;
         execute();
     }
-    // return false;
 });
 execute();
 //# sourceMappingURL=app.js.map
